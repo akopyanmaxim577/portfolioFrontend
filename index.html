@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ====== Remix Fonts ======-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- ====== ICON ======-->
+    <link rel="shortcut icon" href="./img/portfolio.png" type="image/x-icon">
+    <!-- ====== AOS Animate CSS ======-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ====== Swiper CSS ======-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- ====== CSS ======-->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <!-- ====== HEADER ======-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Hello</a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav__link">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#certif" class="nav__link">Certifications</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-fill"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ====== MAIN ======-->
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="./img/myPhoto.jpg" alt="Author's photo" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__name">Maxim Akopyan</h1>
+                    <p class="home__work">Frontend Developer</p>
+                    <dl class="home__list">
+                        <dt>AGE:</dt>
+                        <dd>19</dd>
+                        <dt>PHONE</dt>
+                        <dd>+380-(66)-855-37-62</dd>
+                        <dt>EMAIL:</dt>
+                        <dd>akopyan.maksim14@gmail.com</dd>
+                        <dt>ADDRESS:</dt>
+                        <dd>Kyiv,Ukraine</dd>
+                    </dl>
+                    <div class="home__socials">
+                        <a href="https://github.com/akopyanmaxim577" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC-%D0%B0%D0%BA%D0%BE%D0%BF%D1%8F%D0%BD-89845124b/"
+                            target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100045680723005" target="_blank"
+                            class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ====== About Me ======-->
+    <section class="hello section container">
+        <h2 class="section_title"><span class=" section_title type"></span></h2>
+        <p class="hello_details  text-lg">My name is Max. I’m 19 years old. I’m a student, freelancer, and Frontend
+            Developer. From school, I decided to be a programmer and I make it real. I like sports and Computer science.
+            I’m studying at Borys Hrinchenko Kyiv University with a specialty — in computer sciences. I studied in the
+            second course. Also, I studied at SoftServe Academy.</p>
+        <a href="./img/Akopyan_Frontend_Developer_CV.docx" class="button button--flex text-sm">
+            <i class="ri-download-line"></i> DOWNLOAD CV</a>
+    </section>
+    <!-- ====== RESUME ======-->
+    <section class="section container" id="resume">
+        <h2 class="section_title">Resume_</h2>
+        <div class="resume__container grid">
+            <div class="resume__data">
+                <h3 class="resume__title text-sm">EDUCATION</h3>
+                <div class="resume__item" data-aos="fade-up">
+                    <h3 class="resume_subtitle text-sm">Kyiv Borys Hrinchenko University</h3>
+                    <p class="resume__date text-sm">2022-2025</p>
+                    <p class="resume__description text-lg">As I said earlier, I'm a university student at Borys
+                        Hrinchenko
+                        Kyiv University(computer sciences). During the first and second years, I learned the basics of
+                        Python algorithms. I practiced a lot with loops, operators, arrays, and how to make the
+                        algorithm
+                        much more efficient. It was really helpful for me because I understand how to make great
+                        algorithms
+                        and use them in my JavaScript projects. I also started learning the basics of C#.</p>
+                </div>
+                <div class="resume__item" data-aos="fade-up">
+                    <h3 class="resume_subtitle text-sm">SoftServe Academy</h3>
+                    <p class="resume__date text-sm">February 2022-Now</p>
+                    <p class="resume__description text-lg">Overtime at school, I read a lot and learned about Softserve,
+                        I
+                        liked the company's approach to business and decided that I want to study there in addition to
+                        university. At the moment, I attend company workshops, I finished 2 courses and now I'm waiting
+                        for
+                        the start of React.</p>
+                </div>
+            </div>
+            <div class="resume__data">
+                <h3 class="resume__title text-sm">EXPIRIENCE</h3>
+                <div class="resume__item" data-aos="fade-up">
+                    <h3 class="resume_subtitle text-sm">SoftServe-HTML/CSS/Js Fundamentals</h3>
+                    <p class="resume__date text-sm">February-March 2022</p>
+                    <p class="resume__description text-lg">I have been doing web development since February 2022. My
+                        journey
+                        started with courses from SoftServe-HTML/CSS/Js Fundamentals. Also became a team-lead in the
+                        team.
+                        Managed the team and coordinated the project that we did in together-Online Store. I have
+                        learned
+                        HTML,CSS,JavaScript,Ajax,JSON.I have practiced my knowledge on real tasks.</p>
+                </div>
+                <div class="resume__item" data-aos="fade-up">
+                    <h3 class="resume_subtitle text-sm">Frontend Freelances</h3>
+                    <p class="resume__date text-sm">March-May 2022</p>
+                    <p class="resume__description text-lg">After the course, I started to find small projects, where I
+                        can
+                        practice my skills. I have worked with OLX, FreelanceHunt, etc.I made website layouts and CSS
+                        work,
+                        js elements such as burger-menu slider, animation, and also I started using Git to push changes
+                        in
+                        the repository. Also, I have to learn the basics of PHP and SQL and do work where I need it to
+                        create notices in the database and display them in tables due to a loop.</p>
+                </div>
+                <div class="resume__item" data-aos="fade-up">
+                    <h3 class="resume_subtitle text-sm">SoftServe-JavaScript Fundamentals</h3>
+                    <p class="resume__date text-sm">May-June 2022</p>
+                    <p class="resume__description text-lg">I wrote a technical and received a free course that lasted
+                        1.5
+                        months. I learned basic knowledge, learned how to work with cycles, operators, and functions,
+                        and
+                        also studied Debaging,Ajax,OOP,Qjuery,standart of Javascript(EcmaScipt5) and also beginning of
+                        Node.js.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Certifications ======-->
+    <section class="cert section container" id="certif">
+        <h2 class="section_title">Certifications_</h2>
+        <div class="swiper_width" data-aos="fade-up">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/html-css-js.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/Geek Brains_page-0001.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/js-fund.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/photo_2022-10-04_11-09-07.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/UC-4baeea18-36b2-4fe2-b0bd-7753aa94d5a5.jpg" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Skills ======-->
+    <section class="section container" id="skills">
+        <h2 class="section_title">Skills_</h2>
+        <div class="skills__container grid">
+            <div class="skills__content">
+                <h3 class="skills__title text-sm">Hard Skills</h3>
+                <div class="skills__list grid">
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">HTML</p>
+                            <span class="skills__number text-sm">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:90%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">CSS</p>
+                            <span class="skills__number text-sm">85%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:85%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">JavaScript</p>
+                            <span class="skills__number text-sm">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:70%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">OOP</p>
+                            <span class="skills__number text-sm">83%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:83%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">DOM</p>
+                            <span class="skills__number text-sm">87%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:87%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">BOM</p>
+                            <span class="skills__number text-sm">74%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:74%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">Ajax</p>
+                            <span class="skills__number text-sm">72%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:72%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">Qjuery</p>
+                            <span class="skills__number text-sm">56%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:56%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">GIT</p>
+                            <span class="skills__number text-sm">68%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:68%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">Regular expressions</p>
+                            <span class="skills__number text-sm">86%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:86%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">SQL</p>
+                            <span class="skills__number text-sm">32%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:32%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">Node.js</p>
+                            <span class="skills__number text-sm">12%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:12%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__content">
+                <h3 class="skills__title text-sm">Soft Skills</h3>
+                <div class="skills__list grid">
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">Good communication</p>
+                            <span class="skills__number text-sm">100%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:100%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">Teamwork</p>
+                            <span class="skills__number text-sm">100%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:100%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">Problem-solving</p>
+                            <span class="skills__number text-sm">100%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:100%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">Willingness to learn</p>
+                            <span class="skills__number text-sm">100%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:100%"></span>
+                        </div>
+                    </div>
+                    <div class="skills_data" data-aos="fade-up">
+                        <div class="skills__titles">
+                            <p class="skills__name text-sm">Critical thinking</p>
+                            <span class="skills__number text-sm">100%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage" style="width:100%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== Portfolio ======= -->
+    <section class="work section container" id="portfolio">
+        <h2 class="section__title">Portfolio_</h2>
+        <div class="projects__container grid">
+            <div class="project__item grid" data-aos="fade-up">
+                <img src="./img/portImg/todo.jpg" alt="" class="project__img">
+                <div class="project__data">
+                    <h3 class="project__title text-lg">TO-DO List App</h3>
+                    <p class="project__description text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Commodi, adipisci!</p>
+                    <h4 class="project__stack text-xs">USED STACK:</h4>
+                    <ul class="tags text-sm">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BEM</li>
+                        <li>JavaScript</li>
+                        <li>localStorage</li>
+                    </ul>
+                    <a href="https://akopyanmaxim577.github.io/To-Do_List/" target="_blank"
+                        class="project__link text-sm">www.todoapp.ua</a>
+                </div>
+            </div>
+            <div class="project__item grid" data-aos="fade-up">
+                <img src="./img/portImg/flowbase.jpg" alt="" class="project__img">
+                <div class="project__data">
+                    <h3 class="project__title text-lg">FlowBase Landing</h3>
+                    <p class="project__description text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Commodi, adipisci!</p>
+                    <h4 class="project__stack text-xs">USED STACK:</h4>
+                    <ul class="tags text-sm">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BEM</li>
+                    </ul>
+                    <a href="https://akopyanmaxim577.github.io/flowBase/" target="_blank"
+                        class="project__link text-sm">www.flowbase.ua</a>
+                </div>
+            </div>
+            <div class="project__item grid" data-aos="fade-up">
+                <img src="./img/portImg/museum.jpg" alt="" class="project__img">
+                <div class="project__data">
+                    <h3 class="project__title text-lg">Museum Landing</h3>
+                    <p class="project__description text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Commodi, adipisci!</p>
+                    <h4 class="project__stack text-xs">USED STACK:</h4>
+                    <ul class="tags text-sm">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BEM</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="https://akopyanmaxim577.github.io/Landing_Museum_PCversion/" target="_blank"
+                        class="project__link text-sm">www.museum.ua</a>
+                </div>
+            </div>
+            <div class="project__item grid" data-aos="fade-up">
+                <img src="./img/portImg/nftstore.jpg" alt="" class="project__img">
+                <div class="project__data">
+                    <h3 class="project__title text-lg">NFT Store Responsive Site</h3>
+                    <p class="project__description text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Commodi, adipisci!</p>
+                    <h4 class="project__stack text-xs">USED STACK:</h4>
+                    <ul class="tags text-sm">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BEM</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="https://akopyanmaxim577.github.io/NFTLandingPage-Responsive/" target="_blank"
+                        class="project__link text-sm">www.nftstore.ua</a>
+                </div>
+            </div>
+            <div class="project__item grid" data-aos="fade-up">
+                <img src="./img/portImg/pepsi.jpg" alt="" class="project__img">
+                <div class="project__data">
+                    <h3 class="project__title text-lg">Pepsi Responsive Landing Page</h3>
+                    <p class="project__description text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Commodi, adipisci!</p>
+                    <h4 class="project__stack text-xs">USED STACK:</h4>
+                    <ul class="tags text-sm">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BEM</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="https://akopyanmaxim577.github.io/Home-Pepsi-Responsive-Landing-Page-Website/"
+                        target="_blank" class="project__link text-sm">www.pepsi.ua</a>
+                </div>
+            </div>
+            <div class="project__item grid" data-aos="fade-up">
+                <img src="./img/portImg/petworld.jpg" alt="" class="project__img">
+                <div class="project__data">
+                    <h3 class="project__title text-lg">Pet World Responsive Landing</h3>
+                    <p class="project__description text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Commodi, adipisci!</p>
+                    <h4 class="project__stack text-xs">USED STACK:</h4>
+                    <ul class="tags text-sm">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BEM</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="https://akopyanmaxim577.github.io/PetWorld-responsive-adaptive-landing/" target="_blank"
+                        class="project__link text-sm">www.petworld.ua</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ====== CONTACT ======-->
+    <section class="contact section" id="contact">
+        <div class="contact__content container">
+            <h2 class="section__title">Get in touch_</h2>
+            <div class="contact__container grid">
+                <div class="contact__info">
+                    <ul class="contact__socials">
+                        <li>
+                            <a href="https://t.me/akopyanmaxim57" target="_blank" class="contact__social-link"><i class="ri-telegram-fill"></i></a>
+                            <a href="https://instagram.com/akopyanmaxim57?igshid=YmMyMTA2M2Y=" target="_blank" class="contact__social-link"><i class="ri-instagram-fill"></i></a>
+                            <a href="https://twitter.com/MaksimAkopyan57" target="_blank" class="contact__social-link"><i class="ri-twitter-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact__form">
+                    <p class="contact__form-title">Or just write me a letter here</p>
+                
+                    <form action="" id="contact-form">
+                        <div class="contact__input-div">
+                            <input type="text"
+                            placeholder="Your name"
+                            class="contact__input"
+                            id="contact-name">
+                        </div>
+                        <div class="contact__input-div">
+                            <input type="email"
+                            placeholder="Your e-mail"
+                            class="contact__input"
+                            id="contact-email">
+                        </div>
+                        <div class="contact__input-div">
+                            <textarea placeholder="Type the message here"
+                            class="contact__input textarea"
+                            id="message"
+                            cols="30"
+                            rows="10"></textarea>
+                        </div>
+                        <p class="contact__message text-s" id="contact-message">
+
+                        </p>
+                        <button type="submit" class="button contact__button">SEND</button>
+                    </form>
+                    <p class="footer__copy">
+                       &copy; 2022 Maxim Akopyan.All Rights Reserved  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ====== AOS Aniamte JS ======-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ====== Swiper Js ======-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- ====== TYPE.JS ======-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- ====== JS ======-->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
