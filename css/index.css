@@ -539,14 +539,14 @@
 }
 
 
-.contact,
-.section_title,
+.contact section_title,
 .contact__list,
 .contact__social-link,
 ::placeholder,
 .contact__input,
 .contact__form-title,
 .footer__copy{
+    color: #fff;
     font-family: var(--mono-font);
 }
 
