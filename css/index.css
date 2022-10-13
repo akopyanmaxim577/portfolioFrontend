@@ -547,7 +547,6 @@
 .contact__input,
 .contact__form-title,
 .footer__copy{
-    color: #fff;
     font-family: var(--mono-font);
 }
 
