@@ -483,25 +483,29 @@
                     <form action="" id="contact-form">
                         <div class="contact__input-div">
                             <input type="text"
+                            name="name"
                             placeholder="Your name"
                             class="contact__input"
                             id="contact-name">
                         </div>
                         <div class="contact__input-div">
                             <input type="email"
+                            name="email"
                             placeholder="Your e-mail"
                             class="contact__input"
                             id="contact-email">
                         </div>
                         <div class="contact__input-div">
-                            <textarea placeholder="Type the message here"
+                            <textarea
+                            name="message"
+                            placeholder="Type the message here"
                             class="contact__input textarea"
                             id="message"
                             cols="30"
                             rows="10"></textarea>
                         </div>
-                        <p class="contact__message text-s" id="contact-message">
-
+                        <p class="contact__message text-lg" id="contact-message">
+                            
                         </p>
                         <button type="submit" class="button contact__button">SEND</button>
                     </form>
@@ -518,6 +522,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- ====== Swiper Js ======-->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- ====== Email.JS ======-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!-- ====== TYPE.JS ======-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- ====== JS ======-->

@@ -592,7 +592,7 @@
     padding: 0.625rem;
 }
 
-.textare{
+.textarea{
     height: 7.2rem;
     resize: none;
 }
@@ -611,4 +611,16 @@
     opacity: 0.4;
     margin-top: 3.75rem;
     text-align: center;
+}
+
+.cl{
+    color: var(--primary-color-alt);
+}
+
+.color-light{
+    opacity: 0;
+}
+
+.color-dark{
+    opacity: 0.4;
 }
