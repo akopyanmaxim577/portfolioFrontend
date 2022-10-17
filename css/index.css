@@ -634,7 +634,16 @@
     .skills__container{
         grid-template-columns: 12fr;
     }
+
 }
+
+@media (max-width:721px){
+    .project__item{
+        grid-template-columns: 12fr;
+    }
+
+}
+
 /*=====Contact======*/
 
 .contact__social-link{
