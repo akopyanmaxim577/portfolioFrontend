@@ -512,7 +512,7 @@
     text-align: justify;
 }
 
-@media(max-device-width:850){
+@media only screen and (max-device-width:850){
     .resume__container{
         grid-template-columns: 12fr;
     }
