@@ -431,6 +431,7 @@
 .swiper {
     width: 100%;
     height: 100%;
+    
   }
 
   .swiper-slide {
@@ -512,7 +513,7 @@
     text-align: justify;
 }
 
-@media only screen and (max-device-width:850){
+@media (max-device-width:850){
     .resume__container{
         grid-template-columns: 12fr;
     }
