@@ -630,7 +630,11 @@
     font-family: var(--mono-font);
 }
 
-
+@media (max-width:850px){
+    .skills__container{
+        grid-template-columns: 12fr;
+    }
+}
 /*=====Contact======*/
 
 .contact__social-link{
