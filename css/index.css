@@ -239,14 +239,13 @@
         background-color: #282727;
     }
     .nav__list{
-
         position: fixed;
         left: -100%;
         top: 0px;
         gap: 0;
         flex-direction: column;
         background-color: #282727;
-        height: auto;
+        height: 100%;
         width: 100%;
         text-align: center;
         transition: 0.3s;
