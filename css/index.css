@@ -211,13 +211,12 @@
     transition: all 0.3s ease-in-out ;
     background-color: #ffffff;
 
-
 }
 
 .pos{
     position: fixed;
 }
-@media(max-width:768px){
+@media(max-width:778px){
     .nav__link{
         color: #fff;
     }
@@ -267,6 +266,7 @@
 
 .home{
     background: url(../img/backHomeImg.jpg);
+    background-position-x: center;
     background-size: cover;
     padding-top: 5.5rem;
     margin-bottom: 2.5rem;
@@ -317,7 +317,6 @@
 
 .home__work{
     margin-bottom: 2.5rem;
-
 }
 
 
@@ -351,6 +350,22 @@
     opacity: 1;
 }
 
+.home_link{
+    color: #fff;
+}
+
+@media(max-width:642px){
+    .home__container{
+        grid-template-columns: 12fr;
+    }
+    .home__img{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .home__work{
+        margin-bottom: 1.5rem;
+    }
+}
 
 /*== About Me ==*/
 
