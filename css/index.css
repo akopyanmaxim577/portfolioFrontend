@@ -639,7 +639,23 @@
 
 @media (max-width:721px){
     .project__item{
+        width: 66%;
+        margin: 0 auto;
         grid-template-columns: 12fr;
+    }
+    .project__data {
+        padding: 1rem 1rem 1.5rem 0.875rem;
+    }
+    .project__description {
+        margin-bottom: 1.5em;
+    }
+    .tags li{
+        display: flex;
+        row-gap: 5px;
+        
+    }
+    .project__link{
+        margin-top: 1.5rem;
     }
 
 }
