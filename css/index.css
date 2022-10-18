@@ -640,7 +640,6 @@
 @media (max-width:721px){
     .project__item{
         width: 66%;
-        height: 70%;
         margin: 0 auto;
         grid-template-columns: 12fr;
     }
@@ -658,6 +657,7 @@
     .project__link{
         margin-top: 1.5rem;
     }
+    
 
 }
 
@@ -779,6 +779,15 @@
     opacity: 0.4;
     margin-top: 3.75rem;
     text-align: center;
+}
+
+@media(max-width:702px){
+    .contact__info{
+        display: none;
+    }
+    .contact__container{
+        grid-template-columns: 12fr;
+    }
 }
 
 .cl{
