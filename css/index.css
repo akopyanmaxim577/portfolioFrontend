@@ -640,7 +640,12 @@
     font-family: var(--mono-font);
 }
 
+@media (max-width:850px){
+    .skills__container{
+        grid-template-columns: 12fr;
+    }
 
+}
 
 @media (max-width:721px){
     .project__item{
