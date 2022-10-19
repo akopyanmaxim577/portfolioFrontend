@@ -523,6 +523,16 @@
     .text-lg{
         font-size: 1rem;
     }
+
+}
+
+@media(max-width:335px){
+    .text-lg{
+        font-size: 0.7rem;
+    }
+    .section_title{
+        font-size: 2rem;
+    }
 }
 /*=======Courses=========*/
 
