@@ -649,11 +649,13 @@
 
 @media (max-width:721px){
     .project__item{
-        width: 66%;
-        height: auto;
         margin: 0 auto;
         grid-template-columns: 12fr;
     }
+    /* .project__img{
+       height: 70%;
+
+    } */
     .project__data {
         padding: 1rem 1rem 1.5rem 0.875rem;
     }
