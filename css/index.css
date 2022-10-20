@@ -647,6 +647,10 @@
 
 }
 
+.social_footer{
+    display: none;
+}
+
 @media (max-width:721px){
     .project__item{
         margin: 0 auto;
@@ -669,6 +673,13 @@
     }
     .project__link{
         margin-top: 1.5rem;
+    }
+    .social_footer{
+        width: 216px;
+        margin: 0 auto;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
     }
     
 
@@ -813,4 +824,9 @@
 
 .color-dark{
     opacity: 0.4;
+}
+
+.contact__message{
+    font-size: 17px;
+    color: #fff;
 }

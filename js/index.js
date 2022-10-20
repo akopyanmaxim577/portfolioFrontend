@@ -62,9 +62,7 @@ const sendEmail = (e) =>{
     emailjs.sendForm('service_3pnytdr','template_fdv84oc','#contact-form',
     'hClxx-RSbKyBZSFxj')
     .then(()=>{
-      contactMessage.classList.add('color-light');
       contactMessage.textContent = "Message sent ✔";
-
       setTimeout(()=>{
         contactMessage.textContent=""
       },5000);
